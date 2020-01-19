@@ -15,6 +15,17 @@ library(lattice)
 library(rgdal)
 library(igraph)
 
+# space for feature 1
+
+
+
+
+# space for feature 2
+
+
+
+
+
 ahsMap <- function(wdCrit, vCrit, vx.path, vy.path, wd.path, s.file, out.path)
 {
   flush.console()
