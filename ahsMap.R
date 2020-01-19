@@ -6,8 +6,6 @@
 #      and rasterToPolygons (package 'raster')
 #   3. writes resulting polygons to ESRI shapefile for each time step
 
-# test
-
 library(raster)
 library(sp)
 library(maptools)
