@@ -14,7 +14,6 @@ library(rgeos)
 # library(lattice)
 # library(rgdal)
 # library(igraph)
-library(kwb.base)
 
 ahsMap <- function(wdCrit, vCrit, vx.path, vy.path, wd.path, s.file, out.path)
 {
