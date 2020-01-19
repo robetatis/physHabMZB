@@ -15,6 +15,10 @@ library(lattice)
 library(rgdal)
 library(igraph)
 
+x <- 1+3
+y <- sqrt(x)
+
+
 ahsMap <- function(wdCrit, vCrit, vx.path, vy.path, wd.path, s.file, out.path)
 {
   flush.console()
