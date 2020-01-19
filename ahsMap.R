@@ -13,7 +13,7 @@ library(rgeos)
 # library(shapefiles)
 # library(lattice)
 # library(rgdal)
-#library(igraph)
+# library(igraph)
 
 ahsMap <- function(wdCrit, vCrit, vx.path, vy.path, wd.path, s.file, out.path)
 {
