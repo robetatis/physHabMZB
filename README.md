@@ -29,3 +29,8 @@ Codes in journeyMatrix:
 Codes in journeyi have different meaning (1=usable, 2=unusable).
 
 n is proportional to patch size. Also, the total number of seeding points is proportional to the total AHS in each time step. The density of seeding points (No./AHS) is defined by the user through parameter "seed.dens".
+
+## adjustShear.f
+Bottom shear stress adjustment with Bezzola's approach: takes depth-averaged velocity (at 40% water depth) and computes near-bed
+velocity and shear stress (tau) based on the thickness of the roughness sublayer, which is calculated based on substrate grain size.
+This routine is coded as a stand-alone FORTRAN90 program meant to be executed from the same directory as the input files.
