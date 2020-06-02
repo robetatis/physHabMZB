@@ -1,7 +1,7 @@
 # physHabMZB
 Functions for quantifying temporal habitat dynamics in rivers.
 
-These scripts implement an approach for transient simulation of physical habitat for stream invertebrates. The approach is described in [this paper](https://onlinelibrary.wiley.com/doi/full/10.1002/eco.2066).
+These scripts implement an approach for transient simulation of physical habitat for stream invertebrates. The approach is described in [this paper](https://onlinelibrary.wiley.com/doi/full/10.1002/eco.2066) that summarizes my dissertation.
 
 ## ahsMap.R
 Reads rasters for water depth, x- and y-velocities (depth-averaged, from shallow water model), and suitable substrates (defined as binary variable, 1=suitable substrate, 0=unsuitable). then runs through all  time steps and:
